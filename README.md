@@ -16,8 +16,6 @@ PARSE-Ego4D aims at solving the space of intelligent assistance involving not on
 More details can be found on the project page: https://parse-ego4d.github.io/ 
 
 
-## Code
-
 
 ## Data
 Parse-Ego4D dataset includes 18,000 suggested actions. The dataset is split into three different files:
@@ -27,14 +25,17 @@ Parse-Ego4D dataset includes 18,000 suggested actions. The dataset is split into
 ``data/annotations.csv`` contains the annotations aggregated per video snippet. This is the data used for all downstream ML tasks reported in the paper.
 The common ID shared between all three spreadsheets is the ``suggestion_id``. In addition, the PARSE-Ego4D ID provides a unique mapping to the Ego4D database.
 
+You’re free to copy, modify, and redistribute this data under the terms of the CC-BY license. See the [`LICENSE`](../LICENSE) file for details.
 
+
+## Code
 The dataset was generated using advanced prompting and LLM analysis and validated using a large human study with participants in Prolific with over human 36,171. Generation files are also provided in the form of ipython notebooks that can run on Google Colab:
-``generation/Ego4Ddatageneration.ipynb`` is the prompting and data processing tool that was used to parse all the narrations of ego4d.
-``generation/Ego4Dvideos.ipynb`` contains the code that cropped the videos to the suggested actions by PARSE-Ego4D so they could be later shown on our Prolific user study.
-``generation/Ego4Dcleaning_analysis.ipynb`` contains the annotations aggregated per video snippet. This is the data used for all downstream ML tasks reported in the paper.
+``code/Ego4Ddatageneration.ipynb`` is the prompting and data processing tool that was used to parse all the narrations of ego4d.
+``code/Ego4Dvideos.ipynb`` contains the code that cropped the videos to the suggested actions by PARSE-Ego4D so they could be later shown on our Prolific user study.
+``code/Ego4Dcleaning_analysis.ipynb`` contains the annotations aggregated per video snippet. This is the data used for all downstream ML tasks reported in the paper.
 
 
-## Contributors
+## Main Contributors
 - **Steve Abreu (Google and University of Gronigen)**
 - **Tiffany Do (Google and University of Central Florida)**
 - **Karan Ahuja (Google)**
@@ -42,3 +43,11 @@ The dataset was generated using advanced prompting and LLM analysis and validate
 - **Lee Payne (Google)**
 - **Daniel McDuff (Google)**
 - **Mar Gonzalez-Franco (Google)**  
+
+
+## Contribute
+To learn how to contribute to this project, read [CONTRIBUTING.md](../CONTRIBUTING.md).
+
+## License
+The code is released with Apache 2.0 License [LICENSE.txt](../LICENSE.txt).
+The data is released with CC-BY-4.0 License [CC-BY-4.0](../data/CC-BY-4.0).
