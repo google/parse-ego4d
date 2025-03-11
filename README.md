@@ -2,7 +2,7 @@
  This repo contains the code and data for the PARSE-Ego4D in the paper [``PARSE-Ego4D: Personal Action Recommendation Suggestions for Egocentric Videos``](https://arxiv.org/abs/2407.09503).
  
  ```
-@article{abreu2024parseego4d,
+@article{abreu2025parseego4d,
   author    = {Abreu, Steven and Do, Tiffany and Ahuja, Karan and Gonzalez, Eric J and Payne, Lee and McDuff, daniel and Gonzalez-Franco, Mar},
   title     = {PARSE-Ego4D Personal Action Recommendation Suggestions for Egocentric Videos},
   journal   = {ICLR Workshop},
