@@ -5,8 +5,8 @@
 @article{abreu2024parseego4d,
   author    = {Abreu, Steven and Do, Tiffany and Ahuja, Karan and Gonzalez, Eric J and Payne, Lee and McDuff, daniel and Gonzalez-Franco, Mar},
   title     = {PARSE-Ego4D Personal Action Recommendation Suggestions for Egocentric Videos},
-  journal   = {},
-  year      = {2024},
+  journal   = {ICLR Workshop},
+  year      = {2025},
 }
 ```
 
