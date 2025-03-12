@@ -26,3 +26,5 @@ preferred-citation:
   year: 2025
   journal: ICLR Workshop
   type: article
+  repository-code: "https://github.com/google/parse-ego4d"
+  url: "https://arxiv.org/abs/2407.09503"
