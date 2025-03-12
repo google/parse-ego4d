@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+preferred-citation:
+  authors:
+    - family-names: Abreu
+      given-names: Steven
+      affiliation: "Google, University of Gronigen"
+    - family-names: Do
+      given-names: Tiffany
+      affiliation: "Google, University of Central Florida"
+    - family-names: Ahuja
+      given-names: Karan
+      affiliation: "Google"
+    - family-names: Gonzalez
+      given-names: Eric J
+      affiliation: "Google"
+    - family-names: Payne
+      given-names: Lee
+      affiliation: "Google"
+    - family-names: McDuff
+      given-names: Daniel
+      affiliation: "Google"
+    - family-names: Gonzalez-Franco
+      given-names: Mar
+      affiliation: "Google"
+  title: PARSE-Ego4D Personal Action Recommendation Suggestions for Egocentric Videos
+  year: 2025
+  journal: ICLR Workshop
+  type: article
